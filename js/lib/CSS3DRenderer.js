@@ -92,12 +92,6 @@ THREE.CSS3DRenderer = function () {
 
 	};
 
-    this.getPixelRatio = function () {
-
-        return 1;
-
-    };
-
 	function epsilon( value ) {
 
 		return Math.abs( value ) < 1e-10 ? 0 : value;
